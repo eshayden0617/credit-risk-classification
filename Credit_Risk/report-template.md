@@ -2,25 +2,24 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+In this analysis, the goal was to build machine learning models for predicting loan status, specifically differentiating between "healthy loans" (0) and "high-risk loans" (1). I utilized financial data, including variables like credit scores, loan amounts, and employment length, to make these predictions.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The Machine Learning Process Was:
+1. Handling missing data and splitting the dataset into training and testing sets
+2. Chose Logistic Regression model for the classification task
+3. Trained the model on the training data
+4. Assessed model performance using accuracy, precision, and recall.
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+* Logistic Regression Model:
+  * Balanced Accuracy: 0.95
+  * Precision for Class 0 (Healthy Loans): 1.00
+  * Precision for Class 1 (High-Risk Loans): 0.85
+  * Recall for Class 0 (Healthy Loans): 0.99
+  * Recall for Class 1 (High-Risk Loans): 0.91
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
