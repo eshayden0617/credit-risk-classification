@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
@@ -23,8 +23,17 @@ The Machine Learning Process Was:
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+For "healthy loans" (class 0):
 
-If you do not recommend any of the models, please justify your reasoning.
+It has a precision of 1.00, meaning it rarely makes mistakes.
+It captures nearly all of the actual healthy loans with a recall of 0.99.
+The F1-Score is a perfect 1.00, indicating a great balance between precision and recall.
+
+
+For "high-risk loans" (class 1):
+
+It's pretty good at spotting them with a precision of 0.85, but it does make some incorrect calls.
+It does a good job at catching most of the real high-risk loans with a recall of 0.91.
+The F1-Score is 0.88, showing that it strikes a decent balance between precision and recall.
+
+Overall, the model is incredibly accurate with an accuracy rate of 99%. It's also quite proficient at distinguishing between healthy and high-risk loans.
